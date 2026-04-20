@@ -28,7 +28,7 @@ USAGE EXAMPLE:
   .slide {
     height: 100%;
     flex: 0 0 100%;
-    background: black;
+    background: #f5ead7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ USAGE EXAMPLE:
   .content {
     max-width: 560px;
     padding: 2rem;
-    color: white;
+    color: #000;
     text-align: center;
   }
 
@@ -47,13 +47,13 @@ USAGE EXAMPLE:
     margin: 0 0 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: white;
+    color: #000;
   }
 
   p {
     font-size: 1.0625rem;
     line-height: 1.7;
-    opacity: 0.8;
+    opacity: 0.85;
     margin: 0;
   }
 </style>

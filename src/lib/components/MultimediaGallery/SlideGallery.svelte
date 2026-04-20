@@ -99,7 +99,7 @@ USAGE EXAMPLE:
 
   .gallery-wrapper {
     height: 100dvh;
-    background: black;
+    background: #f5ead7;
     container-type: inline-size;
     overflow: hidden;
   }
@@ -152,7 +152,7 @@ USAGE EXAMPLE:
   .arrow-hint {
     display: none;
     font-size: 2rem;
-    color: white;
+    color: #000;
     opacity: 0;
     transition: opacity 0.2s ease;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -165,7 +165,7 @@ USAGE EXAMPLE:
   }
 
   .tap-zone:focus-visible {
-    outline: 2px solid var(--color-white);
+    outline: 2px solid #000;
     outline-offset: -2px;
   }
 
@@ -189,7 +189,7 @@ USAGE EXAMPLE:
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: white;
+    background: #000;
     opacity: 0.4;
     transition: opacity 0.2s ease;
   }

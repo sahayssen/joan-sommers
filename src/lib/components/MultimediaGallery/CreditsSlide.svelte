@@ -28,7 +28,7 @@ USAGE EXAMPLE:
   .slide {
     height: 100%;
     flex: 0 0 100%;
-    background: black;
+    background: #f5ead7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,13 +37,13 @@ USAGE EXAMPLE:
   .content {
     max-width: 600px;
     padding: 2rem;
-    color: white;
+    color: #1a1a1a;
   }
 
   .content :global(h2) {
     font-size: 1.5rem;
     margin: 0 0 1rem;
-    color: white;
+    color: #1a1a1a;
   }
 
   .content :global(p) {

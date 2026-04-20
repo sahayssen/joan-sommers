@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "type": "photo",
+    "filename": "headshot.JPG",
+    "title": "Biographical beginnings",
+    "caption": "Joan Sommers was born in Duluth, Minnesota in 1924 to Czech and Irish parents. Over the course of her life she wore many hats, including figure skater, mother, and artist",
+    "credit": "Author's Personal Archives"
+ },
+ {
+    "id": 2,
+    "type": "photo",
+    "filename": "gmma.jpeg",
+    "title": "A personal connection",
+    "caption": "She was also my grandmother. Some of my most cherished memories took place in her studio and in her home in North Carolina the walls were covered in her art.",
+    "credit": "Author's Personal Archives"
+  },
+  {
+    "id": 3,
+    "type": "photo",
+    "filename": "student.jpg",
+    "title": "Studies in Art",
+    "caption": "My grandmother studied at the Art Institute of Chicago, but ultimately her biggest influence would be the time she lived abroad with my grandfather, Bill.",
+    "credit": "Author's Personal Archives"
+  },
+  {
+    "id": 4,
+    "type": "photo",
+    "filename": "Earlywork-46.jpg",
+    "title": "Divided Self",
+    "caption": "This is one of my grandmother's earliest paintings, completed in 1946. It was meant to reflect an internal struggle between maintaining her professional and personal life.",
+    "credit": "Author's Personal Archives"
+  },
+   {
+    "id": 5,
+    "type": "photo",
+    "filename": "1954.jpg",
+    "title": "Untitled",
+    "caption": "Painted in 1954, this piece reflects my grandmother's interest in abstract expressionism, a movement made famous by artists like Jackson Pollock and Willem de Kooning.",
+    "credit": "Author's Personal Archives"
+  },
+
+   {
+    "id": 6,
+    "type": "text",
+    "headline": "The Root",
+    "body": "'The desire to blend and balance ideas of contrast and similarity, continuity and disruption' — Joan Sommers on discussing her inspiration."
+  },
+
+  {
+    "id": 7,
+    "type": "photo",
+    "filename": "eighties.jpeg",
+    "title": "Mixed Collage",
+    "caption": "This 1985 mixed media piece reflects the time my grandmother spent in Egypt after living in Thailand and the Philippines. It features images of pottery and, on the bottom left, a fragment of paper with hieroglyphs.",
+    "credit": "Author's Personal Archives"
+  },
+  {
+    "id": 8,
+    "type": "photo",
+    "filename": "tradecenter-2001.jpg",
+    "title": "Sudden Landscape",
+    "caption": "Completed in 2001, eleven years before she passed, this abstract piece is my grandmother's depiction of the collapse of the World Trade Center. It perflectly encapsulates the major themes in her work: abstraction with the clear influence of Chinese brush painting",
+    "credit": "Author's Personal Archives"
+  },
+   {
+    "id": 9,
+    "type": "text",
+    "headline": "The End of An Era",
+    "body": "My grandmother passed away in December 2013 at the age of 89. Her work has been exhibited in New York City and abroad. Some of her work currently resides in the Getty colletion." 
+  },
+ 
+  {
+    "id": 10,
+    "type": "text",
+    "headline": "Acknowledgements",
+    "body": "Thank you to my Mother whose meticulous attention to detail and assiduous research into my grandmother's work made this possible. My apologies for not accepting your edits : )" 
+  }
+]

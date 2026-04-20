@@ -48,7 +48,7 @@ USAGE EXAMPLE:
   .slide {
     height: 100%;
     flex: 0 0 100%;
-    background: black;
+    background: #f5ead7;
     display: flex;
     flex-direction: column;
   }
@@ -95,7 +95,7 @@ USAGE EXAMPLE:
   }
 
   .logo:focus-visible {
-    outline: 2px solid var(--color-white);
+    outline: 2px solid #000;
     outline-offset: 2px;
   }
 
@@ -138,7 +138,7 @@ USAGE EXAMPLE:
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
-    color: white;
+    color: #000;
     text-align: center;
   }
 
@@ -146,7 +146,7 @@ USAGE EXAMPLE:
     font-size: 2rem;
     line-height: 1.2;
     margin: 0 0 1rem;
-    color: white;
+    color: #000;
 
     @container (min-width: 768px) {
       font-size: 3.5rem;
@@ -156,7 +156,7 @@ USAGE EXAMPLE:
   .intro {
     font-size: 1.0625rem;
     line-height: 1.6;
-    opacity: 0.85;
+    opacity: 0.8;
     margin: 0 0 1.5rem;
 
     @container (min-width: 768px) {
@@ -167,7 +167,7 @@ USAGE EXAMPLE:
 
   .byline {
     font-size: 0.875rem;
-    opacity: 0.6;
+    opacity: 0.75;
     margin: 0;
 
     @container (min-width: 768px) {
@@ -177,10 +177,10 @@ USAGE EXAMPLE:
 
   .scroll-hint {
     font-size: 0.8125rem;
-    opacity: 0.6;
+    opacity: 0.75;
     margin: 0;
     padding-bottom: 3.5rem;
-    color: white;
+    color: #000;
     display: flex;
     justify-content: center;
   }

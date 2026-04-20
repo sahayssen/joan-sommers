@@ -37,7 +37,7 @@ USAGE EXAMPLE:
     height: 100%;
     flex: 0 0 100%;
     position: relative;
-    background: black;
+    background: #f5ead7;
 
     @container (min-width: 768px) {
       display: flex;
@@ -63,16 +63,16 @@ USAGE EXAMPLE:
     padding: 2rem 1.5rem 3.5rem;
     background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.85) 0%,
-      rgba(0, 0, 0, 0.4) 70%,
-      transparent 100%
+      rgba(245, 234, 215, 0.98) 0%,
+      rgba(245, 234, 215, 0.92) 70%,
+      rgba(245, 234, 215, 0) 100%
     );
-    color: white;
+    color: #000;
 
     @container (min-width: 768px) {
       position: static;
       width: 40%;
-      background: black;
+      background: #f5ead7;
       display: flex;
       align-items: center;
       padding: 3rem;
@@ -87,7 +87,7 @@ USAGE EXAMPLE:
     margin: 0 0 0.5rem;
     font-size: 1.25rem;
     line-height: 1.3;
-    color: white;
+    color: #000;
 
     @container (min-width: 768px) {
       font-size: 1.75rem;
@@ -99,7 +99,7 @@ USAGE EXAMPLE:
     margin: 0 0 0.5rem;
     font-size: 0.9375rem;
     line-height: 1.5;
-    opacity: 0.9;
+    opacity: 0.85;
 
     @container (min-width: 768px) {
       font-size: 1.0625rem;
@@ -110,7 +110,7 @@ USAGE EXAMPLE:
 
   .caption .credit {
     font-size: 0.75rem;
-    opacity: 0.6;
+    opacity: 0.75;
 
     @container (min-width: 768px) {
       font-size: 0.8125rem;
