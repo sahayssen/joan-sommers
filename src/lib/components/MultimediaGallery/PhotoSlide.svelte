@@ -63,10 +63,6 @@ USAGE EXAMPLE:
 
   .slide img.shift-crop-right-mobile {
     object-position: 72% center;
-
-    @container (min-width: 768px) {
-      object-position: center;
-    }
   }
 
   .caption {
