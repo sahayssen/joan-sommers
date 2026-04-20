@@ -19,10 +19,16 @@ USAGE EXAMPLE:
   let {
     photo, // Object with filename, title, caption, and credit
   } = $props();
+
+  const shiftCropRightOnMobile = photo?.filename?.toLowerCase() === 'student.jpg';
 </script>
 
 <div class="slide" data-slide data-photo>
-  <img src="{base}/photos/{photo.filename}" alt={photo.title} />
+  <img
+    src="{base}/photos/{photo.filename}"
+    alt={photo.title}
+    class:shift-crop-right-mobile={shiftCropRightOnMobile}
+  />
   <div class="caption">
     <div class="caption-inner">
       <h2>{photo.title}</h2>
@@ -52,6 +58,14 @@ USAGE EXAMPLE:
     @container (min-width: 768px) {
       width: 60%;
       flex-shrink: 0;
+    }
+  }
+
+  .slide img.shift-crop-right-mobile {
+    object-position: 72% center;
+
+    @container (min-width: 768px) {
+      object-position: center;
     }
   }
 
